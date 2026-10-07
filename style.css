@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.text{
+  width: 300px;
+}
+
+textarea{
+  width: 400px;
+  height: 100px;
+}
+
+/* 戻る */
+.footer{
+  display: block;
+}
+
+/* エラーの色 */
+.color{
+  color: red; 
+  margin-bottom: 20px;
+}
+
+
+/* お問合せ確認画面 */
+.confirmation{
+  margin: 0;
+  text-align: center;
+  line-height: 100px;
+  background-color: #95ffffdc;
+  height: 100px;
+}
+
+main{
+  display: flex;
+}
+
+.side{
+  margin: 0 auto;
+  width: 40%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecc0ff;
+}
+
+.side ul{
+  text-align: left;
+}
+
+.table{
+  width: 60%;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd4db;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 420px; 
+  right: 15px;
+}
+
+.footer{
+  height: 60px;
+  background-color: #c0bebe;
+}
