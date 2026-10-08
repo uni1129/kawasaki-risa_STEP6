@@ -25,8 +25,7 @@ $body .= "メールアドレス : {$email}\n";
 $body .= "年齢 : {$age}\n";
 $body .= "お問い合わせ内容 : {$message}\n";
 
-// --- 要件 d, e) メール送信と成功・失敗の判定 ---
-// mb_send_mail()の戻り値（true / false）を取得します
+//メール送信と成功・失敗の判定
 $is_success = mb_send_mail($to, $subject, $body);
 ?>
 
@@ -36,12 +35,12 @@ $is_success = mb_send_mail($to, $subject, $body);
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>お問い合せフォーム-送信完了画面</title>
+  <title>お問い合わせフォーム-送信完了画面</title>
 </head>
 
 <body>
   <header>
-    <h2 class="confirmation">お問い合わせ結果</h2>
+    <h1 class="confirmation">お問い合わせフォーム-送信完了画面</h1>
   </header>
 
   <main>
