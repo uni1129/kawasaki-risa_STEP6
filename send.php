@@ -32,12 +32,15 @@ $is_success = mb_send_mail($to, $subject, $body);
 
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>お問合せフォーム-送信完了画面</title>
+  <title>お問い合せフォーム-送信完了画面</title>
 </head>
-<header>
+
+<body>
+  <header>
     <h2 class="confirmation">お問い合わせ結果</h2>
   </header>
 
@@ -58,4 +61,6 @@ $is_success = mb_send_mail($to, $subject, $body);
       </p>
     </div>
   </main>
+</body>
+
 </html>
